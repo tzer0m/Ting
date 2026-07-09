@@ -7,7 +7,7 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 
 		<PackageId>t0m.Ting</PackageId>
-		<Version>1.0.1</Version>
+		<Version>1.0.2</Version>
 		<Authors>Tom</Authors>
 		<Description>Client for sending push notifications via a Ting notification endpoint.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
