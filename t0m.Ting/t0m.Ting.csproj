@@ -7,12 +7,13 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 
 		<PackageId>t0m.Ting</PackageId>
-		<Version>1.0.3</Version>
+		<Version>1.0.4</Version>
 		<Authors>Tom</Authors>
 		<Description>Client for sending push notifications via a Ting notification endpoint.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/tzer0m/Ting</RepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>icon.png</PackageIcon>
 		<PackageTags>notifications;push</PackageTags>
 	</PropertyGroup>
 
@@ -23,6 +24,7 @@
 
 	<ItemGroup>
 		<None Include="README.md" Pack="true" PackagePath="/" Condition="Exists('README.md')" />
+		<None Include="icon.png" Pack="true" PackagePath="/" Condition="Exists('icon.png')" />
 	</ItemGroup>
 
 </Project>
