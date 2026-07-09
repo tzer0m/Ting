@@ -18,9 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: List files
-        run: ls -la
-
       - name: Pack
         run: dotnet pack -c Release -o out
 
