@@ -1,0 +1,9 @@
+name: Sync Checkout
+on:
+  push:
+    branches: [main]
+jobs:
+  checkout:
+    runs-on: tzer0m
+    steps:
+      - uses: actions/checkout@v4
