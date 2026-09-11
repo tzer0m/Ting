@@ -1,7 +1,7 @@
 name: Sync Checkout
 on:
   push:
-    branches: [main]
+    branches: [master]
 jobs:
   checkout:
     runs-on: tzer0m
