@@ -1,6 +1,7 @@
 # Ting
 
 [![Publish](https://github.com/tzer0m/Ting/actions/workflows/publish.yml/badge.svg)](https://github.com/tzer0m/Ting/actions/workflows/publish.yml)
+[![Dependabot](https://github.com/tzer0m/Ting/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/tzer0m/Ting/actions/workflows/dependabot/dependabot-updates)
 [![NuGet](https://img.shields.io/nuget/v/t0m.Ting.svg)](https://www.nuget.org/packages/t0m.Ting)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/t0m.Ting.svg)](https://www.nuget.org/packages/t0m.Ting)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
