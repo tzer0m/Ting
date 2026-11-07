@@ -34,9 +34,15 @@ public sealed class MyService(TingClient tingClient)
 {
     public async Task DoSomethingAsync()
     {
-        await tingClient.SendAsync("Alert", "Something happened.");
+        await tingClient.SendAsync("MyService: Alert", "Something happened.");
     }
 }
+```
+
+Pass an optional link to open when the notification is tapped:
+
+```csharp
+await tingClient.SendAsync("MyService: Alert", "Something happened.", "https://example.com/details");
 ```
 
 ## License
