@@ -2,6 +2,9 @@ name: Sync Checkout
 on:
   push:
     branches: [master]
+permissions:
+  contents: read
+
 jobs:
   checkout:
     runs-on: tzer0m
